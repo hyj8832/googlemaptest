@@ -14,9 +14,10 @@
       <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-          map:carmeraTargetLat="37.541"
+          map:carmeraTargetLat="36"
           map:carmeraTargetLng="126.986"
           map:carmeraZoom="15"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></fragment>
+        android:layout_height="match_parent"></fragment>     <!--carmeraTargetLat와 carmeraTargetLng로 위도 경도 설정가능 -->
+
 </RelativeLayout>
